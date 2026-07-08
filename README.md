@@ -1,7 +1,6 @@
 # eurozig.eu
 
-The EuroZig website, built with [Zine](https://zine-ssg.io) (0.12.0). The design
-is ported from the taz-inspired HTML+CSS prototype in `~/repos/taz-theme`.
+The EuroZig website, built with [Zine](https://zine-ssg.io) (0.12.0).
 
 ## Commands
 
@@ -24,7 +23,7 @@ is ported from the taz-inspired HTML+CSS prototype in `~/repos/taz-theme`.
   `description`, and `.custom` `location`. The listing splits upcoming/past
   automatically at build time.
 - `layouts/` — SuperHTML templates; `templates/base.shtml` holds the page
-  chrome (top bar, header, footer). Placeholder links (`login`, `club`,
+  chrome (top bar, header, footer). Placeholder links (`login`,
   `become a member`, `donate`, `Imprint`, `Privacy Policy`) live there.
-- `assets/style.css` — ported taz-theme stylesheet (system font fallbacks, no
+- `assets/style.css` — the site stylesheet (system font fallbacks, no
   bundled webfonts).
