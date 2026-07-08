@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head id="head">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title :text="$page.title"></title>
+		<link type="text/css" rel="stylesheet" href="$site.asset('style.css').link()">
+		<super>
+	</head>
+	<body>
+		<div>
+			<nav id="top-bar">
+				<a href="#">login</a>
+			</nav>
+
+			<header>
+				<a href="$site.page('').link()" id="logo">EuroZig</a>
+				<nav>
+					<a href="/club/">club</a>
+					<a href="$site.page('events').link()">events</a>
+					<a href="#">become a member</a>
+				</nav>
+				<a href="#" id="support">♥&nbsp;<b>donate</b></a>
+			</header>
+
+			<main id="main">
+				<super>
+			</main>
+
+			<footer id="main-footer">
+				<ul>
+					<li><a href="#">Imprint</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			</footer>
+		</div>
+	</body>
+</html>

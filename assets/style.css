@@ -1,0 +1,430 @@
+:root {
+    --highlight: #003399;
+    --ink: #1f1f1f;
+    --paper: #fff;
+    --gray: #f0f0f0;
+    --sans: "Aktiv Grotesk", "Helvetica Neue", Arial, sans-serif;
+    --serif: "Knile", "Rockwell", "Roboto Slab", Georgia, serif;
+    --serif-cond: "Knile Condensed", "Rockwell", "Roboto Slab", Georgia, serif;
+    --dot: radial-gradient(
+        circle,
+        var(--ink) 0.8px,
+        color-mix(in srgb, var(--ink) 80%, transparent) 1.1px,
+        transparent 1.6px
+    );
+    --pad: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 64px;
+    background: var(--gray);
+    color: var(--ink);
+    font-family: var(--sans);
+    overflow-x: hidden;
+}
+
+a {
+    color: var(--highlight);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body > div {
+    max-width: 1020px;
+    margin: 0 auto;
+    background: var(--paper);
+    hyphens: auto;
+}
+
+/* ---------- top bar ---------- */
+
+#top-bar {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-end;
+    height: 52px;
+    padding: 0 var(--pad);
+    background: var(--gray);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ---------- header ---------- */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    height: 89px;
+    padding: 0 10px;
+    background: var(--paper);
+}
+
+header::before,
+header::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 2px;
+    background: var(--dot) 0 50% / 6px 6px repeat-x;
+}
+
+header::before {
+    top: 0;
+}
+header::after {
+    bottom: 0;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 89px;
+    margin-right: 24px;
+    background: var(--highlight);
+    color: #fff;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+}
+
+/* support pill in header  */
+#support {
+    margin-left: auto;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: var(--highlight);
+    color: #fff;
+    font-size: 14.5px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+/* ---------- lead article ---------- */
+
+main > article {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: var(--pad);
+}
+
+main > article > img {
+    flex: 2 1 0;
+    min-width: 0;
+    margin-left: 30px;
+    align-self: flex-start;
+}
+
+main > article > div {
+    flex: 1 1 0;
+}
+
+main > article h1 {
+    margin: 0 0 10px;
+    font-family: var(--serif-cond);
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+main > article > div p {
+    margin: 0 0 15px;
+    font-family: var(--serif-cond);
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+/* kicker (lead and cards) */
+article > span,
+article > div > span:first-child {
+    display: block;
+    margin: 0 0 10px;
+    font-family: var(--serif);
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+/* author line */
+article footer {
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+/* ---------- topic sections ---------- */
+
+body > div > nav,
+main > section,
+main > aside {
+    position: relative;
+}
+
+/* colored blocks extend a darkened version of their background into the gutters */
+body > div > nav::after,
+main > section:nth-of-type(odd)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    background: inherit;
+    filter: brightness(0.92);
+    z-index: -1;
+}
+
+main > section::before,
+main > aside::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 2px;
+    background: var(--dot) 0 50% / 6px 6px repeat-x;
+}
+
+main > section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+main > section:nth-of-type(odd) {
+    background: var(--gray);
+}
+
+main > section h2 {
+    width: 100%;
+    margin: 0;
+    padding: var(--pad) var(--pad) 0;
+    color: var(--ink);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: lowercase;
+}
+
+main > section article {
+    width: 50%;
+    padding: var(--pad) var(--pad) 0;
+    position: relative;
+}
+
+/* a lone article fills the whole section */
+main > section article:only-of-type {
+    width: 100%;
+}
+
+main > section article:only-of-type > img {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* dotted divider between the two cards */
+main > section article + article::before {
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: var(--pad);
+    bottom: 0;
+    width: 2px;
+    background: var(--dot) 50% 0 / 6px 6px repeat-y;
+}
+
+main > section article > img {
+    display: block;
+    width: 100%;
+    margin-bottom: var(--pad);
+}
+
+main > section h3 {
+    margin: 0 0 10px;
+    font-family: var(--serif-cond);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.15;
+}
+
+main > section article p {
+    margin: 0 0 15px;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+/* event listing */
+main > section h3 a {
+    color: inherit;
+}
+
+main > section article p.event-meta {
+    font-family: var(--serif);
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+/* ---------- footer ---------- */
+
+body > div > footer {
+    padding: 40px var(--pad) 20px;
+}
+
+body > div > footer > div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 60px;
+}
+
+body > div > footer h3 {
+    margin: 0 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+body > div > footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body > div > footer li {
+    margin-bottom: 14px;
+    font-size: 15.5px;
+}
+
+#main-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #000;
+}
+
+#main-footer p {
+    margin: 0;
+    font-size: 15.5px;
+}
+
+#main-footer small {
+    font-size: 12px;
+}
+
+#main-footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    max-width: 480px;
+}
+
+#main-footer li {
+    margin: 0;
+}
+
+/* ---------- wide screens: logo hugs the viewport edge ---------- */
+
+@media (min-width: 1360px) {
+    #logo {
+        position: absolute;
+        left: calc(50% - 50vw);
+    }
+}
+
+/* ---------- mobile ---------- */
+
+@media (max-width: 768px) {
+    body > div > nav {
+        display: none;
+    }
+
+    header {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #logo {
+        margin-right: auto;
+    }
+
+    header nav {
+        order: 5;
+        width: 100%;
+        padding: 14px var(--pad);
+        position: relative;
+    }
+
+    header nav::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100vw;
+        height: 2px;
+        background: var(--dot) 0 50% / 6px 6px repeat-x;
+    }
+
+    main > article {
+        flex-direction: column;
+        padding: 0 0 var(--pad);
+    }
+
+    main > article > img {
+        margin: 0 0 var(--pad);
+        width: 100%;
+    }
+
+    main > article > div {
+        padding: 0 var(--pad);
+    }
+
+    main > section article {
+        width: 100%;
+        padding-bottom: var(--pad);
+    }
+
+    main > section article + article::before {
+        left: var(--pad);
+        right: var(--pad);
+        top: -1px;
+        bottom: auto;
+        width: auto;
+        height: 2px;
+        background: var(--dot) 0 50% / 6px 6px repeat-x;
+    }
+
+    main > aside {
+        flex-direction: column;
+    }
+
+    main > aside > img {
+        width: 70%;
+    }
+
+    #main-footer {
+        flex-direction: column;
+    }
+}

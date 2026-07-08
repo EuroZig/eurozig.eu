@@ -1,0 +1,50 @@
+<extend template="base.shtml">
+<head id="head"></head>
+<main id="main">
+	<article>
+		<img src="$site.asset('events.webp').link()" alt="">
+		<div>
+			<span :text="$page.custom.get('kicker')"></span>
+			<h1 :text="$page.custom.get('headline')"></h1>
+			<ctx :html="$page.content()"></ctx>
+		</div>
+	</article>
+
+	<section>
+		<h2>upcoming →</h2>
+		<ctx :loop="$page.subpages()">
+			<ctx :if="$loop.it.date.gt($build.generated)">
+				<article>
+					<h3><a href="$loop.it.link()" :text="$loop.it.title"></a></h3>
+					<p class="event-meta">
+						<span :text="$loop.it.date.format('January 2, 2006')"></span>
+						·
+						<span :text="$loop.it.custom.getOr('location', 'TBA')"></span>
+					</p>
+					<p :text="$loop.it.description"></p>
+				</article>
+			</ctx>
+		</ctx>
+	</section>
+
+	<ctx :if="$page.subpages().last?()">
+		<ctx :if="$if.date.lt($build.generated)">
+			<section>
+				<h2>past →</h2>
+				<ctx :loop="$page.subpages()">
+					<ctx :if="$loop.it.date.lt($build.generated)">
+						<article>
+							<h3><a href="$loop.it.link()" :text="$loop.it.title"></a></h3>
+							<p class="event-meta">
+								<span :text="$loop.it.date.format('January 2, 2006')"></span>
+								·
+								<span :text="$loop.it.custom.getOr('location', 'TBA')"></span>
+							</p>
+							<p :text="$loop.it.description"></p>
+						</article>
+					</ctx>
+				</ctx>
+			</section>
+		</ctx>
+	</ctx>
+</main>

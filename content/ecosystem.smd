@@ -1,0 +1,12 @@
+---
+.title = "Supporting the Zig Ecosystem",
+.date = .date("2026-01-01T00:00:00"),
+.layout = "page.shtml",
+.custom = {
+    "section": "mission",
+    "image": "photo.svg",
+    "image_alt": "",
+},
+---
+
+We aim to help important projects in the Zig ecosystem by applying for grants.

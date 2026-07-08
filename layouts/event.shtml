@@ -1,0 +1,16 @@
+<extend template="base.shtml">
+<head id="head"></head>
+<main id="main">
+	<article>
+		<div>
+			<span>
+				<span :text="$page.date.format('January 2, 2006')"></span>
+				·
+				<span :text="$page.custom.getOr('location', 'TBA')"></span>
+			</span>
+			<h1 :text="$page.title"></h1>
+			<ctx :html="$page.content()"></ctx>
+			<p><a href="$site.page('events').link()">← all events</a></p>
+		</div>
+	</article>
+</main>

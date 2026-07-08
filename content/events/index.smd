@@ -1,0 +1,12 @@
+---
+.title = "Events — EuroZig",
+.date = .date("2026-01-01T00:00:00"),
+.layout = "events.shtml",
+.custom = {
+    "kicker": "What's happening",
+    "headline": "Events",
+},
+---
+
+We host and support Zig events all over Europe: conferences, workshops and Zig
+Days. Want to organize one in your city? Get in touch!

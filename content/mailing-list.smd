@@ -1,0 +1,12 @@
+---
+.title = "Join the Mailing list",
+.date = .date("2026-01-01T00:00:00"),
+.layout = "page.shtml",
+.custom = {
+    "section": "join",
+    "image": "photo.svg",
+    "image_alt": "",
+},
+---
+
+If you are interested in joining us, sign up to the mailing list [here](#).

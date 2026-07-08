@@ -1,0 +1,14 @@
+---
+.title = "EuroZig",
+.date = .date("2026-07-05T00:00:00"),
+.layout = "index.shtml",
+.aliases = ["club/index.html"],
+.custom = {
+    "kicker": "Hello World!",
+    "headline": "Announcing EuroZig!",
+},
+---
+
+EuroZig is a community of European Zig enthusiasts. We host events and support
+the Zig ecosystem. We are in the process of setting up a German non-profit to
+do this.

@@ -1,0 +1,13 @@
+---
+.title = "Hosting Conferences and Workshops",
+.date = .date("2026-01-02T00:00:00"),
+.layout = "page.shtml",
+.custom = {
+    "section": "mission",
+    "image": "stage.jpg",
+    "image_alt": "A stage with chairs in front of it.",
+},
+---
+
+We want to host and help with the organization of conferences, workshops and
+Zig Days. Our first conference will be Zigtoberfest 2027.
