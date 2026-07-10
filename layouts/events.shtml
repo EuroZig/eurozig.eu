@@ -16,7 +16,7 @@
 			<ctx :if="$loop.it.date.gt($build.generated)">
 				<article>
 					<h3><a href="$loop.it.link()" :text="$loop.it.title"></a></h3>
-					<p class="event-meta">
+					<p class="meta">
 						<span :text="$loop.it.date.format('January 2, 2006')"></span>
 						·
 						<span :text="$loop.it.custom.getOr('location', 'TBA')"></span>
@@ -35,7 +35,7 @@
 					<ctx :if="$loop.it.date.lt($build.generated)">
 						<article>
 							<h3><a href="$loop.it.link()" :text="$loop.it.title"></a></h3>
-							<p class="event-meta">
+							<p class="meta">
 								<span :text="$loop.it.date.format('January 2, 2006')"></span>
 								·
 								<span :text="$loop.it.custom.getOr('location', 'TBA')"></span>

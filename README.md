@@ -22,6 +22,8 @@ The EuroZig website, built with [Zine](https://zine-ssg.io) (0.12.0).
 - `content/events/` — events section. One `.smd` per event with `date`,
   `description`, and `.custom` `location`. The listing splits upcoming/past
   automatically at build time.
+- `content/news/` — the news blog. One `.smd` per post with `date` and
+  `description`; the listing shows posts newest-first.
 - `layouts/` — SuperHTML templates; `templates/base.shtml` holds the page
   chrome (top bar, header, footer). Placeholder links (`login`,
   `become a member`, `donate`, `Imprint`, `Privacy Policy`) live there.
