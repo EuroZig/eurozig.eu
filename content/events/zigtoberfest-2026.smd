@@ -9,11 +9,34 @@
 },
 ---
 
-| Date | Location | Description |
-|:-----|:---------|:------------|
-| 12.09.2026 | Hoftheater München | Zigtoberfest 2026 |
-| 13.09.2026 | TBA | EuroZig Founding Meeting |
+## Zigtoberfest 2026 (September 12, 2026) - 10:30 - Hoftheater München
 
 Join us for the last [Zigtoberfest](https://zigtoberfest.de/) not organized by EuroZig!
 
 Zigtoberfest is a mini-conference dedicated to the [Zig](https://ziglang.org/) programming language! It's the ideal place to connect and learn with other hobbyists as well as professionals in the Zig community. We come together to share our knowledge and passion for computers and programming. 
+
+## EuroZig e.V. Inaugural Meeting (September 13, 2026) - 10:00 - Schlungsräume von PixelComputer e.K.
+
+EuroZig is a community of European [Zig](https://ziglang.org/) enthusiasts. We host events and support the Zig ecosystem. We are in the process of setting up a German non-profit to do this.
+
+This event consists of two parts:
+
+1. the inaugural meeting to found the EuroZig e.V.
+2. The first [Zig Day](https://zig.day/) hosted in Munich
+
+The first 3/4 of the day will be a Zig Day. If you want to know more about the Zig Day event format, visit the [official website](https://zig.day/about/). The last 1/4 of the day, starting at around 16:00, will be the inaugural meeting to found the EuroZig e.V.
+
+You can sign up using the form below or visit our [ticket shop](https://pretix.sugar-codeconnect.de/zigtoberfest/eurozig-ev-inaugural-meeting/).
+
+This event is free! Seats are limited!
+
+```=html
+<pretix-widget event="https://pretix.sugar-codeconnect.de/zigtoberfest/eurozig-ev-inaugural-meeting/"></pretix-widget>
+<noscript>
+   <div class="pretix-widget">
+        <div class="pretix-widget-info-message">
+            JavaScript is disabled in your browser. To access our ticket shop without JavaScript, please <a target="_blank" rel="noopener" href="https://pretix.sugar-codeconnect.de/zigtoberfest/eurozig-ev-inaugural-meeting/">click here</a>.
+        </div>
+    </div>
+</noscript>
+```
