@@ -9,10 +9,10 @@
 },
 ---
 
-If you are interested in joining us, sign up to the mailing list [here](#).
+If you are interested in joining us, [sign up](https://newsletter.eurozig.eu/subscription/form) to the mailing list or fill out the form below:
 
 ```=html
-<form method="post" action="https://newsletter.zigtoberfest.de/subscription/form" class="listmonk-form">
+<form method="post" action="https://newsletter.eurozig.eu/subscription/form" class="listmonk-form">
   <div>
     <h3>Subscribe</h3>
     <input type="hidden" name="nonce">
@@ -25,8 +25,8 @@ If you are interested in joining us, sign up to the mailing list [here](#).
       <label for="aa0d0">EuroZig</label>
     </p>
 
-    <altcha-widget challengeurl="https://newsletter.zigtoberfest.de/api/public/captcha/altcha"></altcha-widget>
-    <script type="module" src="https://newsletter.zigtoberfest.de/public/static/altcha.umd.js" async></script>
+    <altcha-widget challengeurl="https://newsletter.eurozig.eu/api/public/captcha/altcha"></altcha-widget>
+    <script type="module" src="https://newsletter.eurozig.eu/public/static/altcha.umd.js" async></script>
 
     <input type="submit" value="Subscribe ">
   </div>
