@@ -156,6 +156,15 @@ main > article > div p {
     line-height: 1.2;
 }
 
+/* headings in plain page content (e.g. FAQ questions) */
+main > article h2 {
+    margin: 25px 0 10px;
+    font-family: var(--serif-cond);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.15;
+}
+
 /* kicker (lead and cards) */
 article > span,
 article > div > span:first-child {
