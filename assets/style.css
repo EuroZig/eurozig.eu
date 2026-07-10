@@ -220,6 +220,8 @@ main > section {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 40px;
+    /* keep anchor targets clear of the sticky header */
+    scroll-margin-top: 89px;
 }
 
 main > section:nth-of-type(odd) {

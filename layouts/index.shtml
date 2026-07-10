@@ -29,7 +29,7 @@
 		</ctx>
 	</section>
 
-	<section>
+	<section id="join">
 		<h2>join us →</h2>
 		<ctx :loop="$page.subpages()">
 			<ctx :if="$loop.it.custom.getOr('section', '').eql('join')">
