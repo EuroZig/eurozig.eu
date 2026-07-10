@@ -275,12 +275,12 @@ main > section article p {
     line-height: 1.3;
 }
 
-/* event listing */
+/* listing sections (events, news) */
 main > section h3 a {
     color: inherit;
 }
 
-main > section article p.event-meta {
+main > section article p.meta {
     font-family: var(--serif);
     font-size: 15px;
     line-height: 1.2;

@@ -1,0 +1,22 @@
+<extend template="base.shtml">
+<head id="head"></head>
+<main id="main">
+	<article>
+		<div>
+			<span :text="$page.custom.get('kicker')"></span>
+			<h1 :text="$page.custom.get('headline')"></h1>
+			<ctx :html="$page.content()"></ctx>
+		</div>
+	</article>
+
+	<section>
+		<h2>latest →</h2>
+		<ctx :loop="$page.subpages()">
+			<article>
+				<h3><a href="$loop.it.link()" :text="$loop.it.title"></a></h3>
+				<p class="meta" :text="$loop.it.date.format('January 2, 2006')"></p>
+				<p :text="$loop.it.description"></p>
+			</article>
+		</ctx>
+	</section>
+</main>
