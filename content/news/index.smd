@@ -2,10 +2,17 @@
 .title = "News — EuroZig",
 .date = .date("2026-01-01T00:00:00"),
 .layout = "news.shtml",
+.alternatives = [.{
+    .name = "rss",
+    .layout = "news.xml",
+    .output = "index.xml",
+    .type = "application/rss+xml",
+}],
 .custom = {
     "kicker": "What's new",
     "headline": "News",
 },
 ---
 
-News and announcements from EuroZig.
+News and announcements from EuroZig. Subscribe to the
+[RSS feed]($link.alternative('rss')) to stay up to date.

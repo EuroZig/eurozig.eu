@@ -23,7 +23,9 @@ The EuroZig website, built with [Zine](https://zine-ssg.io) (0.12.0).
   `description`, and `.custom` `location`. The listing splits upcoming/past
   automatically at build time.
 - `content/news/` — the news blog. One `.smd` per post with `date` and
-  `description`; the listing shows posts newest-first.
+  `description`; the listing shows posts newest-first. An RSS feed is
+  published at `/news/index.xml` (declared as an `.alternatives` entry in
+  `news/index.smd`, rendered by `layouts/news.xml`).
 - `layouts/` — SuperHTML templates; `templates/base.shtml` holds the page
   chrome (top bar, header, footer). Placeholder links (`login`,
   `become a member`, `donate`, `Imprint`, `Privacy Policy`) live there.
