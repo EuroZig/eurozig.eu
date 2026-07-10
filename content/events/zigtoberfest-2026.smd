@@ -1,0 +1,19 @@
+---
+.title = "Zigtoberfest 2026 & EuroZig Founding Meeting",
+.date = .date("2026-09-12T00:00:00"),
+.description = "Join us for the last Zigtoberfest not organized by EuroZig! We're going to host the founding meeting for EuroZig the day after Zigtoberfest on September 13, 2026 in Munich (Germany).",
+.layout = "event.shtml",
+.custom = {
+    "location": "Hoftheater München and TBA",
+    "to": "September 13, 2026",
+},
+---
+
+| Date | Location | Description |
+|:-----|:---------|:------------|
+| 12.09.2026 | Hoftheater München | Zigtoberfest 2026 |
+| 13.09.2026 | TBA | EuroZig Founding Meeting |
+
+Join us for the last [Zigtoberfest](https://zigtoberfest.de/) not organized by EuroZig!
+
+Zigtoberfest is a mini-conference dedicated to the [Zig](https://ziglang.org/) programming language! It's the ideal place to connect and learn with other hobbyists as well as professionals in the Zig community. We come together to share our knowledge and passion for computers and programming. 

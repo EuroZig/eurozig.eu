@@ -18,6 +18,8 @@
 					<h3><a href="$loop.it.link()" :text="$loop.it.title"></a></h3>
 					<p class="event-meta">
 						<span :text="$loop.it.date.format('January 2, 2006')"></span>
+                        <span :if="$loop.it.custom.has('to')">-</span>
+                        <span :if="$loop.it.custom.has('to')" :text="$loop.it.custom.getOr('to', '')"></span>
 						·
 						<span :text="$loop.it.custom.getOr('location', 'TBA')"></span>
 					</p>
