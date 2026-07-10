@@ -1,5 +1,7 @@
 <extend template="base.shtml">
-<head id="head"></head>
+<head id="head">
+	<link rel="alternate" type="application/rss+xml" title="EuroZig News" href="$page.alternative('rss').link()">
+</head>
 <main id="main">
 	<article>
 		<div>
