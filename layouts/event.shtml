@@ -1,10 +1,15 @@
 <extend template="base.shtml">
-<head id="head"></head>
+<head id="head">
+    <link rel="stylesheet" type="text/css" href="https://pretix.sugar-codeconnect.de/zigtoberfest/eurozig-ev-inaugural-meeting/widget/v2.css" crossorigin>
+    <script type="text/javascript" src="https://pretix.sugar-codeconnect.de/widget/v2.en.js" async crossorigin></script>
+</head>
 <main id="main">
 	<article>
 		<div>
 			<span>
 				<span :text="$page.date.format('January 2, 2006')"></span>
+                <span :if="$page.custom.has('to')">-</span>
+                <span :if="$page.custom.has('to')" :text="$page.custom.getOr('to', '')"></span>
 				·
 				<span :text="$page.custom.getOr('location', 'TBA')"></span>
 			</span>
