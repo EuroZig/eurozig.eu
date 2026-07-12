@@ -22,7 +22,7 @@
 					<a href="$site.page('faq').link()">faq</a>
 					<a href="/#join">become a member</a>
 				</nav>
-				<a href="#" id="support">♥&nbsp;<b>donate</b></a>
+				<!--<a href="#" id="support">♥&nbsp;<b>donate</b></a>-->
 			</header>
 
 			<main id="main">
