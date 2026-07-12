@@ -10,7 +10,7 @@
 ---
 
 We can't accept members yet because the association is not yet registered.
-If you want to be amongst the first to join, either come to our [founding meeting]($link.page('news/founding-meeting')) or sign up to the mailing list here:
+If you want to be amongst the first to join, either come to our [founding meeting]($link.page('events/zigtoberfest-2026')) or sign up to the mailing list here:
 
 ```=html
 <form method="post" action="https://newsletter.eurozig.eu/subscription/form" class="listmonk-form">
