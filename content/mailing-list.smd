@@ -14,22 +14,20 @@ If you want to be amongst the first to join, either come to our [founding meetin
 
 ```=html
 <form method="post" action="https://newsletter.eurozig.eu/subscription/form" class="listmonk-form">
-  <div>
-    <input type="hidden" name="nonce">
+  <input type="hidden" name="nonce">
 
-    <p><input type="email" name="email" required placeholder="E-mail"></p>
-    <p><input type="text" name="name" placeholder="Name (optional)"></p>
+  <p><input type="email" name="email" required placeholder="E-mail" aria-label="E-mail"></p>
+  <p><input type="text" name="name" placeholder="Name (optional)" aria-label="Name (optional)"></p>
 
-    <p>
-      <input id="aa0d0" type="checkbox" name="l" checked value="aa0d01ac-b4fd-494b-9bef-cce03357cffb">
-      <label for="aa0d0">EuroZig</label>
-    </p>
+  <p hidden>
+    <input id="aa0d0" type="checkbox" name="l" checked value="aa0d01ac-b4fd-494b-9bef-cce03357cffb">
+    <label for="aa0d0">EuroZig</label>
+  </p>
 
-    <altcha-widget challengeurl="https://newsletter.eurozig.eu/api/public/captcha/altcha"></altcha-widget>
-    <script type="module" src="https://newsletter.eurozig.eu/public/static/altcha.umd.js" async></script>
+  <altcha-widget challengeurl="https://newsletter.eurozig.eu/api/public/captcha/altcha"></altcha-widget>
+  <script type="module" src="https://newsletter.eurozig.eu/public/static/altcha.umd.js" async></script>
 
-    <input type="submit" value="Subscribe ">
-  </div>
+  <p><input type="submit" value="Subscribe"></p>
 </form>
 ```
 \
