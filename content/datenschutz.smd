@@ -1,0 +1,33 @@
+---
+.title = "Datenschutzerklärung",
+.date = .date("2026-01-01T00:00:00"),
+.layout = "page.shtml",
+---
+
+## Gesammelte Daten
+
+EuroZig.eu ist auch GitHub Pages gehostet. GitHub speichert die IP-Adressen der Besucher dieser Webseite aus Sicherheitsgründen.
+Rechtsgrundlage dazu ist ein berechtigtes Interesse seitens Microsoft/GitHub.
+Weitere Informationen enthehmen Sie bitte [GitHubs Datenschutzerklärung](https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement).
+Falls Sie sich auch der Mailing-Liste anmelden wird ihre E-Mail Adresse und optional ihr Name gespeichert.
+Dies ist zum Versand der E-Mails notwendig. Rechtsgrundlage dazu ist ihre Einwilligung.
+
+Falls Sie die Löschung der Daten wünschen, melden sie sich bitte unter [privacy@eurozig.eu](mailto:privacy@eurozig.eu).
+
+## Verantwortliche Stelle
+
+EuroZig e.V. (in Gründung), EuroZig e.V. (in Gründung), Leonhardstraße 20A, 90443 Nürnberg, Deutschland —
+Kontaktdaten siehe [Impressum]($link.page('impressum')).
+
+## Rechte laut Datenschutzgrundverordnung
+
+Ihnen stehen laut den Bestimmungen der DSGVO grundsätzlich die folgende Rechte zu:
+
+- Recht auf Berichtigung (Artikel 16 DSGVO)
+- Recht auf Löschung („Recht auf Vergessenwerden") (Artikel 17 DSGVO)
+- Recht auf Einschränkung der Verarbeitung (Artikel 18 DSGVO)
+- Recht auf Benachrichtigung – Mitteilungspflicht im Zusammenhang mit der Berichtigung oder Löschung personenbezogener Daten oder der Einschränkung der Verarbeitung (Artikel 19 DSGVO)
+- Recht auf Datenübertragbarkeit (Artikel 20 DSGVO)
+- Widerspruchsrecht (Artikel 21 DSGVO)
+- Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung – einschließlich Profiling – beruhenden Entscheidung unterworfen zu werden (Artikel 22 DSGVO)
+- Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich an die Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI) wenden.
