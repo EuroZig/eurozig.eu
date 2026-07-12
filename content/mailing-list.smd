@@ -13,9 +13,8 @@ We can't accept members yet because the association is not yet registered.
 If you want to be amongst the first to join, either come to our [founding meeting]($link.page('news/founding-meeting')) or sign up to the mailing list here:
 
 ```=html
-<form method="post" action="https://newsletter.zigtoberfest.de/subscription/form" class="listmonk-form">
+<form method="post" action="https://newsletter.eurozig.eu/subscription/form" class="listmonk-form">
   <div>
-    <h3>Subscribe</h3>
     <input type="hidden" name="nonce">
 
     <p><input type="email" name="email" required placeholder="E-mail"></p>
@@ -26,11 +25,12 @@ If you want to be amongst the first to join, either come to our [founding meetin
       <label for="aa0d0">EuroZig</label>
     </p>
 
-    <altcha-widget challengeurl="https://newsletter.zigtoberfest.de/api/public/captcha/altcha"></altcha-widget>
-    <script type="module" src="https://newsletter.zigtoberfest.de/public/static/altcha.umd.js" async></script>
+    <altcha-widget challengeurl="https://newsletter.eurozig.eu/api/public/captcha/altcha"></altcha-widget>
+    <script type="module" src="https://newsletter.eurozig.eu/public/static/altcha.umd.js" async></script>
 
     <input type="submit" value="Subscribe ">
   </div>
 </form>
-By signing up to the list, you are agreeing to us storing your name and e-mail address.
 ```
+\
+By signing up to the list, you are agreeing to us storing your name and e-mail address.
