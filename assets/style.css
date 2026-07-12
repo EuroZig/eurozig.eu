@@ -156,6 +156,21 @@ main > article > div p {
     line-height: 1.2;
 }
 
+/* lists in page content match the paragraph style */
+main > article ul,
+main > article ol {
+    margin: 0 0 15px;
+    padding-left: 1.2em;
+    font-family: var(--serif-cond);
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+main > article li {
+    margin-bottom: 8px;
+}
+
 /* headings in plain page content (e.g. FAQ questions) */
 main > article h2 {
     margin: 25px 0 10px;

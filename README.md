@@ -28,8 +28,12 @@ The EuroZig website, built with [Zine](https://zine-ssg.io) (0.12.0).
   `news/index.smd`, rendered by `layouts/news.xml`).
 - `content/faq.smd` — the FAQ, a single Markdown page: each question is a
   `##` heading with the answer below it.
+- `content/imprint.smd` + `content/privacy-policy.smd` — legal pages (linked
+  from the footer), with German versions at `content/impressum.smd` and
+  `content/datenschutz.smd`; the language versions cross-link via
+  `$link.page`. Plain pages, not Zine i18n mode.
 - `layouts/` — SuperHTML templates; `templates/base.shtml` holds the page
-  chrome (top bar, header, footer). Placeholder links (`login`,
-  `become a member`, `donate`, `Imprint`, `Privacy Policy`) live there.
+  chrome (top bar, header, footer). Placeholder links (`login`, `donate`)
+  live there.
 - `assets/style.css` — the site stylesheet (system font fallbacks, no
   bundled webfonts).
