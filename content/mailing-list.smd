@@ -4,7 +4,7 @@
 .layout = "page.shtml",
 .custom = {
     "section": "join",
-    "image": "photo.svg",
+    "image": "joinus.png",
     "image_alt": "",
 },
 ---
