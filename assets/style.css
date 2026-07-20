@@ -3,9 +3,9 @@
     --ink: #1f1f1f;
     --paper: #fff;
     --gray: #f0f0f0;
-    --sans: "Aktiv Grotesk", "Helvetica Neue", Arial, sans-serif;
-    --serif: "Knile", "Rockwell", "Roboto Slab", Georgia, serif;
-    --serif-cond: "Knile Condensed", "Rockwell", "Roboto Slab", Georgia, serif;
+    --sans: "Helvetica Neue", Arial, sans-serif;
+    --serif: "Rockwell", "Roboto Slab", Georgia, serif;
+    --serif-cond: "Rockwell", "Roboto Slab", Georgia, serif;
     --dot: radial-gradient(
         circle,
         var(--ink) 0.8px,
