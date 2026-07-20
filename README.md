@@ -37,3 +37,11 @@ The EuroZig website, built with [Zine](https://zine-ssg.io) (0.12.0).
   live there.
 - `assets/style.css` — the site stylesheet (system font fallbacks, no
   bundled webfonts).
+
+## Assets
+
+The following assests were created using Canva:
+
+- `assets/support.png`
+- `assets/joinus.png`
+- `assets/conf.png`

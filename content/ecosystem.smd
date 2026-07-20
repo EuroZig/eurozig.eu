@@ -4,7 +4,7 @@
 .layout = "page.shtml",
 .custom = {
     "section": "mission",
-    "image": "photo.svg",
+    "image": "support.png",
     "image_alt": "",
 },
 ---
