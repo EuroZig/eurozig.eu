@@ -28,6 +28,10 @@ body {
     overflow-x: hidden;
 }
 
+strong {
+    font-weight: bold;
+}
+
 a {
     color: var(--highlight);
     text-decoration: none;

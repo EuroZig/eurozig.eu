@@ -4,11 +4,11 @@
 .layout = "index.shtml",
 .aliases = ["club/index.html"],
 .custom = {
-    "kicker": "Hello World!",
+    "kicker": "Hello Europe!",
     "headline": "Announcing EuroZig!",
 },
 ---
 
 EuroZig is a community of European Zig enthusiasts. We host events and support
 the Zig ecosystem. We are in the process of setting up a German non-profit to
-do this.
+pursue the mission of growing the Zig community within the European Union.

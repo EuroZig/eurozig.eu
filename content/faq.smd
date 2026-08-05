@@ -4,14 +4,41 @@
 .layout = "page.shtml",
 ---
 
-## Why EuroZig when there is already ZSF?
+# Why EuroZig when there is already ZSF?
 
-The need for EuroZig arose when hosting Zigtoberfest. EuroZig focuses on hosting and supporting European Zig events and supporting the European Zig software ecosystem. ZSF's focus, on the other hand, is to build Zig itself.
+EuroZig is focused on nurturing a growing Zig ecosystem within the EU
+by leveraging opportunities exclusively available to European non-profit
+organizations (e.g. EU-only grants).
 
-## What is EuroZig's relationship to ZSF?
+Additionally, as a German non-profit organization, EuroZig can act as
+the fiscal host for initiatives across europe such as conferences, workshops
+and [Zig Day](https://zig.day) events.
 
-EuroZig is a separate organization. It is not "ZSF Europe". EuroZig does not receive regular funding from ZSF. However, there is some membership overlap between ZSF and EuroZig, and the establishment of EuroZig was closely aligned with ZSF.
+At the moment of writing, EuroZig is planned to become the fiscal host for
+[Zigtoberfest](https://zigtoberfest.de) starting from 2027.
 
-## Can I donate to EuroZig if I want to support ZSF or Zig's further development?
+# What is EuroZig's relationship to ZSF?
 
-Sadly, this is not possible. Currently, there is no way to make tax-deductible donations to Zig's development in Europe. Donations to EuroZig are tax-deductible in Germany and benefit European Zig events and the European Zig software ecosystem.
+EuroZig is not directly affiliated with [Zig Software
+Foundation](https://ziglang.org/zsf/), meaning that donating to one
+organization **will not** make the funds available to the other.
+
+Both organizations share a compatible mission, albeit EuroZig focuses its
+efforts on the European Union.
+
+Most notably, **funds donated to ZSF will directly go towards paying core team
+members to work on Zig, while donations to EuroZig will go towards growing the
+Zig community within the EU**, mainly though social events and workshops.
+
+# Can my donations to EuroZig be tax-deductible?
+
+Tax-deducibility of donations can have complex interactions depending on your fiscal status.
+We invite you to double check with an accredited accountant or comparable professional to
+know precisely whether you can deduct donations to non-profit organizations.
+
+That said, as a broad, non-authoritative answer:
+
+- **German taxpayers** who donate directly to EuroZig should be able to deduct their donations.
+- **European taxpayers** who donate via [Giving Europe](https://giving.eu) should be able to deduct their donations.
+- **Non-European taxpayers** should generally **not expect** to be able to deduct their donations.
+

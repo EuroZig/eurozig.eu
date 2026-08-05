@@ -4,7 +4,7 @@
 .layout = "page.shtml",
 ---
 
-## Data we collect
+# Data we collect
 
 EuroZig.eu is hosted on GitHub Pages. GitHub stores the IP addresses of
 visitors to this website for security reasons. The legal basis for this is a
@@ -18,12 +18,12 @@ for this is your consent.
 If you would like your data to be deleted, please contact
 [privacy@eurozig.eu](mailto:privacy@eurozig.eu).
 
-## Responsible party
+# Responsible party
 
 EuroZig e.V. (in founding), Leonhardstraße 20A, 90443 Nürnberg, Germany —
 see the [imprint]($link.page('imprint')) for contact details.
 
-## Your rights under the GDPR
+# Your rights under the GDPR
 
 Under the provisions of the GDPR, you are in principle entitled to the
 following rights:
