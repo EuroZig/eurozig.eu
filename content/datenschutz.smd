@@ -4,7 +4,7 @@
 .layout = "page.shtml",
 ---
 
-## Gesammelte Daten
+# Gesammelte Daten
 
 EuroZig.eu ist auch GitHub Pages gehostet. GitHub speichert die IP-Adressen der Besucher dieser Webseite aus Sicherheitsgründen.
 Rechtsgrundlage dazu ist ein berechtigtes Interesse seitens Microsoft/GitHub.
@@ -14,12 +14,12 @@ Dies ist zum Versand der E-Mails notwendig. Rechtsgrundlage dazu ist ihre Einwil
 
 Falls Sie die Löschung der Daten wünschen, melden sie sich bitte unter [privacy@eurozig.eu](mailto:privacy@eurozig.eu).
 
-## Verantwortliche Stelle
+# Verantwortliche Stelle
 
 EuroZig e.V. (in Gründung), EuroZig e.V. (in Gründung), Leonhardstraße 20A, 90443 Nürnberg, Deutschland —
 Kontaktdaten siehe [Impressum]($link.page('impressum')).
 
-## Rechte laut Datenschutzgrundverordnung
+# Rechte laut Datenschutzgrundverordnung
 
 Ihnen stehen laut den Bestimmungen der DSGVO grundsätzlich die folgende Rechte zu:
 
