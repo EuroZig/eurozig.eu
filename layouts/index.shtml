@@ -3,7 +3,7 @@
 <main id="main">
 	<article>
 		<img
-			src="$site.asset('EuroZig.png').link()"
+			src="$site.asset('EuroZiggoSquare.png').link()"
 			alt="European Flag with the Zig logo in the center."
 		>
 		<div>

@@ -4,10 +4,10 @@
 .layout = "page.shtml",
 .custom = {
     "section": "mission",
-    "image": "conf.png",
+    "image": "talk_andrew.png",
     "image_alt": "Photos of past conferences.",
 },
 ---
 
-We organize conferences, workshops, and Zig Days, and support others in organizing them. 
+We organize conferences, workshops, and Zig Days, and support others in organizing them.
 Our first conference will be Zigtoberfest 2027.

@@ -134,10 +134,15 @@ main > article {
 }
 
 main > article > img {
-    flex: 2 1 0;
-    min-width: 0;
+    /* the image is sized by its height so it matches the text next to it,
+       instead of taking a fixed share of the row's width */
+    flex: 0 1 auto;
+    width: auto;
+    height: auto;
+    max-height: 230px;
+    max-width: 45%;
     margin-left: 30px;
-    align-self: flex-start;
+    align-self: center;
 }
 
 main > article > div {
@@ -488,8 +493,10 @@ body > div > footer li {
     }
 
     main > article > img {
-        margin: 0 0 var(--pad);
-        width: 100%;
+        margin: 0 auto var(--pad);
+        width: auto;
+        max-width: 70%;
+        max-height: none;
     }
 
     main > article > div {
