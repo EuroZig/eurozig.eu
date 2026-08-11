@@ -1,6 +1,6 @@
 # eurozig.eu
 
-The EuroZig website, built with [Zine](https://zine-ssg.io) (0.12.0).
+The EuroZig website, built with [Zine](https://zine-ssg.io) (0.13.0).
 
 ## Commands
 
