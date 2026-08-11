@@ -14,7 +14,7 @@
 	</article>
 
 	<section>
-		<h2>our mission →</h2>
+		<h2>our initiatives →</h2>
 		<ctx :loop="$page.subpages()">
 			<ctx :if="$loop.it.custom.getOr('section', '').eql('mission')">
 				<article>
