@@ -4,7 +4,7 @@
 },
 .site = .simple(.{
     .title = "EuroZig",
-    .host_url = " http://eurozig.github.io/eurozig.eu/",
+    .host_url = "https://eurozig.github.io/eurozig.eu/",
     .content_dir_path = "content",
     .layouts_dir_path = "layouts",
     .assets_dir_path = "assets",
