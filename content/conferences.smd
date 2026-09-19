@@ -4,7 +4,7 @@
 .layout = "page.shtml",
 .custom = {
     "section": "mission",
-    "image": "talk_andrew.png",
+    "image": "talk_andrew.webp",
     "image_alt": "Photos of past conferences.",
 },
 ---

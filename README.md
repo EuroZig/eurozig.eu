@@ -14,8 +14,8 @@ The EuroZig website, built with [Zine](https://zine-ssg.io) (0.13.0).
   Also published unchanged at `/club/` via `.aliases`, which is where the
   header nav's "club" link points.
 - `content/*.smd` (e.g. `conferences.smd`) — homepage cards, subpages of the
-  homepage index. Each card sets `.custom` fields: `section` (`mission` |
-  `join`) and `image` + `image_alt` (a file in `assets/`). Top-level pages
+  homepage index. Each card sets `.custom` fields: `section` (`mission` | `join` |
+  `documents`) and `image` + `image_alt` (a file in `assets/`). Top-level pages
   without a `section` field (like the events index) are ignored by the card
   loop. Cards are ordered newest-`date`-first — the `date` field is used
   purely as a sort weight.
@@ -43,5 +43,5 @@ The EuroZig website, built with [Zine](https://zine-ssg.io) (0.13.0).
 The following assests were created using Canva:
 
 - `assets/support.png`
-- `assets/joinus.png`
+- `assets/joinus.webp`
 - `assets/conf.png`
