@@ -4,7 +4,7 @@
 .layout = "page.shtml",
 .custom = {
     "section": "mission",
-    "image": "EcosystemZiggo.png",
+    "image": "EcosystemZiggo.webp",
     "image_alt": "",
 },
 ---

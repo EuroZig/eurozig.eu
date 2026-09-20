@@ -1,0 +1,14 @@
+---
+.title = "Bylaws and other Documents",
+.date = .date("2026-09-19T00:00:00"),
+.layout = "page.shtml",
+.custom = {
+    "section": "documents",
+},
+---
+- **Bylaws** — [English]($link.siteAsset('bylaws.pdf')) ·
+  [Satzung (German)]($link.siteAsset('satzung.pdf'))
+- **Membership Fee Regulations** — [English]($link.siteAsset('membership-fee-regulations.pdf')) ·
+  [Beitragsordnung (German)]($link.siteAsset('beitragsordnung.pdf'))
+- **Remuneration Regulations** — [English]($link.siteAsset('remuneration-regulations.pdf')) ·
+  [Vergütungsordnung (German)]($link.siteAsset('verguetungsordnung.pdf'))

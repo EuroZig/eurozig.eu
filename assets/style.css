@@ -189,6 +189,33 @@ main > article h2 {
     line-height: 1.15;
 }
 
+/* images in page/post body copy. SuperMD emits a bare <img> when the image
+   has no caption and wraps it in <figure> when it has one, so the image rule
+   has to match on the containing <div>, not on <figure>. Scoped to the div so
+   it never touches the lead image, which is a direct child of <article>. */
+main > article > div img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 15px;
+}
+
+main > article figure {
+    margin: 0 0 15px;
+}
+
+main > article figure img {
+    margin: 0;
+}
+
+main > article figcaption {
+    margin-top: 8px;
+    font-family: var(--sans);
+    font-size: 14px;
+    line-height: 1.35;
+    color: color-mix(in srgb, var(--ink) 65%, transparent);
+}
+
 /* kicker (lead and cards) */
 article > span,
 article > div > span:first-child {

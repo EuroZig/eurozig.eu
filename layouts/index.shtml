@@ -3,7 +3,7 @@
 <main id="main">
 	<article>
 		<img
-			src="$site.asset('EuroZiggoSquare.png').link()"
+			src="$site.asset('EuroZiggoSquare.webp').link()"
 			alt="European Flag with the Zig logo in the center."
 		>
 		<div>
@@ -18,10 +18,12 @@
 		<ctx :loop="$page.subpages()">
 			<ctx :if="$loop.it.custom.getOr('section', '').eql('mission')">
 				<article>
-					<img
-						src="$site.asset($loop.it.custom.get('image')).link()"
-						alt="$loop.it.custom.getOr('image_alt', '')"
-					>
+					<ctx :if="$loop.it.custom.has('image')">
+						<img
+							src="$site.asset($loop.it.custom.get('image')).link()"
+							alt="$loop.it.custom.getOr('image_alt', '')"
+						>
+					</ctx>
 					<h3 :text="$loop.it.title"></h3>
 					<ctx :html="$loop.it.content()"></ctx>
 				</article>
@@ -34,10 +36,30 @@
 		<ctx :loop="$page.subpages()">
 			<ctx :if="$loop.it.custom.getOr('section', '').eql('join')">
 				<article>
-					<img
-						src="$site.asset($loop.it.custom.get('image')).link()"
-						alt="$loop.it.custom.getOr('image_alt', '')"
-					>
+					<ctx :if="$loop.it.custom.has('image')">
+						<img
+							src="$site.asset($loop.it.custom.get('image')).link()"
+							alt="$loop.it.custom.getOr('image_alt', '')"
+						>
+					</ctx>
+					<h3 :text="$loop.it.title"></h3>
+					<ctx :html="$loop.it.content()"></ctx>
+				</article>
+			</ctx>
+		</ctx>
+	</section>
+
+	<section id="documents">
+		<h2>documents →</h2>
+		<ctx :loop="$page.subpages()">
+			<ctx :if="$loop.it.custom.getOr('section', '').eql('documents')">
+				<article>
+					<ctx :if="$loop.it.custom.has('image')">
+						<img
+							src="$site.asset($loop.it.custom.get('image')).link()"
+							alt="$loop.it.custom.getOr('image_alt', '')"
+						>
+					</ctx>
 					<h3 :text="$loop.it.title"></h3>
 					<ctx :html="$loop.it.content()"></ctx>
 				</article>
