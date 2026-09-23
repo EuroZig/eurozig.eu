@@ -1,0 +1,11 @@
+---
+.title = "Become a Member",
+.date = .date("2026-09-23T00:00:00"),
+.layout = "page.shtml",
+---
+Fill in the form below to apply for membership in EuroZig e.V. Our
+[bylaws and fee regulations](/bylaws) describe what membership entails.
+
+```=html
+<iframe src="https://easyverein.com/public/eurozig/applicationform/29295?iframe=True" style="width: 100%; min-height: 800px;"></iframe><br><small><a href="https://easyverein.com" title="Vereinsverwaltungssoftware easyVerein">Association management via easyVerein</a></small>
+```
