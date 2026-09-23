@@ -3,14 +3,13 @@
 .date = .date("2026-01-01T00:00:00"),
 .layout = "page.shtml",
 .custom = {
-    "section": "join",
+    "section": "keep-up-to-date",
     "image": "joinus.webp",
     "image_alt": "",
 },
 ---
-We're currently registering as a German non-profit (e.V.) and are not yet ready to accept members. If you want to be amongst the first to join, you can attend our
-[founding meeting]($link.page('events/zigtoberfest-2026')) or sign up to the
-mailing list here:
+Sign up to our mailing list to stay informed about upcoming EuroZig events.
+Want to support EuroZig? [Become a member]($link.page('join'))!
 
 ```=html
 <form method="post" action="https://newsletter.eurozig.eu/subscription/form" class="listmonk-form">
