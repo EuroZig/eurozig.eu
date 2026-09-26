@@ -1,0 +1,33 @@
+---
+.title = "Funding FOSS in Germany: Prototype Fund & Beyond",
+.date = .date("2026-10-11T12:00:00"),
+.description = "A short introduction to public funding for open source projects in Germany (Prototype Fund, Sovereign Tech Fund, NLnet), followed by an open exchange of experiences and project ideas. Online on the EuroZig Discord.",
+.layout = "event.shtml",
+.custom = {
+    "location": "Online (EuroZig Discord)",
+},
+---
+
+# October 11, 2026 - 12:00 - 15:00 CEST - EuroZig Discord
+
+Are you working on a Zig open source project, or have an idea for one, and wondering how
+to get paid for it? Join us for this online event about public funding for free and
+open source software in Germany.
+
+# Agenda
+1. **Short introduction to FOSS funding**
+    - [Prototype Fund](https://prototypefund.de/) (main focus)
+    - [Sovereign Tech Fund](https://www.sovereign.tech/)
+    - [NLnet](https://nlnet.nl/)
+2. **Experience exchange** — share what you learned applying to these or other funding sources
+3. **Project pitches** — present an idea for a new project, or an existing one you want to apply for funding with
+4. **Group discussions** — if several people are interested in the same topic, they team up and discuss it together
+5. **Next steps** — we decide if and when to hold a follow-up meeting, e.g. a writing workshop
+    where we review each other's grant proposals
+
+If you want to join the event, please
+[sign up for free](https://pretix.sugar-codeconnect.de/eurozig/information-foss/). This is for us to gauge
+the interest in this event.
+
+The event will take place in the "General" voice channel of the EuroZig (formerly Zigtoberfest) Discord. If you're not already on there,
+use this invite link: !!TODO:ADD INVITE LINK!!
